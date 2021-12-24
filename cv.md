@@ -1,11 +1,14 @@
 # Anna Marchenko
-## Entry-Level Front-End developer
+### Entry-Level Front-End developer
 
 ## Contact information:
 * **E-mail:** aniamarkh@gmail.com
 * **Discord**: aniamarkh
 
 ## Profile
+Having started my career as a civil engineer, I have strong analytical and critical thinking skills, subject knowledge of mathematics and physics to identify and solve engineering problems, time management skills to ensure project deadlines are met. But I'm tired of designing modern Russian "panel houses" on the outskirts of cities.
+
+So! I am eager to apply my professional background and creativity towards my childhood dream job - creating first-class user experiences and charming websites accessible to everyone all over the world.
 
 ## Skills
 
