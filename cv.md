@@ -6,9 +6,13 @@
 * **Discord**: aniamarkh
 
 ## Profile
-Having started my career as a civil engineer, I have strong analytical and critical thinking skills, subject knowledge of mathematics and physics to identify and solve engineering problems, time management skills to ensure project deadlines are met. But I'm tired of designing modern Russian "panel houses" on the outskirts of cities.
 
-So! I am eager to apply my professional background and creativity towards my childhood dream job - creating first-class user experiences and charming websites accessible to everyone all over the world.
+**My goal** as an entry-level front-end developer:  
+to build a friendly, intuitive, and also charming interface between the user and the product.  
+
+Having started my career as a civil engineer, I have strong analytical and critical thinking skills, subject knowledge of mathematics and physics to solve engineering problems, time management skills to ensure project deadlines are met.
+
+I am eager to apply my professional background and creativity to my career!
 
 ## Skills
 
