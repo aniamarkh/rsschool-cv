@@ -12,39 +12,36 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Space+Grotesk:wght@300&display=swap"
         rel="stylesheet">
-
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Anna Marchenko CV</title>
 </head>
 
 <body>
     <aside>
         <img src="images/photo.png" alt="My photo">
-
-        <div>
-            <h3>Contact information</h3>
-            <p><strong>Location</strong>: Russia, Saint Petersburg</p>
-            <p><strong>E-mail</strong>: aniamarkh@gmail.com</p>
-            <p><strong>Github</strong>: aniamarkh</p>
-        </div>
+        <h3> <i class="fa fa-address-card"></i>
+            Contact information</h3>
+        <p> <strong>Location</strong>: Russia, Saint Petersburg</p>
+        <p><strong>E-mail</strong>: aniamarkh@gmail.com</p>
+        <p><strong>Github</strong>: aniamarkh</p>
         <div class="skills">
-            <h3>Skills</h3>
-            <p>HTML5, CSS3</p>
-            <p>JavaScript Basics, Python Basics</p>
-            <p>Git & GitHub</p>
-            <p>MySQL</p>
-            <p>VS Code</p>
-            <p>Adobe Photoshop, Figma, Gimp</p>
-            <p>Windows OS, Linux</p>
+            <h3><i class="fa fa-book"></i>Skills</h3>
+            <ul>
+                <li>HTML5, CSS3</li>
+                <li>JavaScript Basics, Python Basics</li>
+                <li>Git & GitHub</li>
+                <li>MySQL</li>
+                <li>VS Code</li>
+                <li>Adobe Photoshop, Figma, Gimp</li>
+                <li>Windows OS, Linux</li>
+            </ul>
         </div>
     </aside>
     <main>
-        <div class="name">
+        <div class="profile">
             <h1>Anna Marchenko</h1>
             <h2>Entry-Level Front-End developer</h2>
-        </div>
-        <div class="profile">
-            <h3>Profile</h3>
+            <h3><i class="fa fa-user"></i>Profile</h3>
             <p><strong>My goal</strong> as an developer is
                 to build a friendly, intuitive, and charming interface between the user and the product.</p>
             <p>Having started my career as a civil engineer, I have strong analytical and critical thinking skills,
@@ -55,7 +52,7 @@
             <p>I am eager to apply my professional background and creativity to my career!</p>
         </div>
         <div class="code">
-            <h3>Code examples</h3>
+            <h3><i class="fa fa-code"></i>Code examples</h3>
             <pre class="code_example">
 def is_palindrome(text):
     text = [i.lower() for i in text if i not in (',.!?- ')]
@@ -73,18 +70,19 @@ else:
     print('NO')</pre>
         </div>
         <div class="education">
-            <h3>Education</h3>
+            <h3> <i class="fa fa-graduation-cap"></i>Education</h3>
             <p><strong>Saint Petersburg State University of Architecture and Civil Engineering</strong></p>
             <p>Bachelor's degree, Faculty of civil engineering, 2014-2018</p>
             <p><strong>RS School</strong></p>
             <p>JavaScript/Front-end Course, Stage 0 (in progress)</p>
         </div>
         <div class="language">
-            <h3>Language</h3>
+            <h3><i class="fa fa-language"></i>Language</h3>
             <p><strong>English</strong>: B2 (Upper-intermediate)</p>
             <p><strong>Russian</strong>: native</p>
         </div>
     </main>
+    <footer></footer>
 </body>
 
 </html>
