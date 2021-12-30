@@ -17,14 +17,20 @@
 </head>
 
 <body>
-    <aside>
-        <img src="images/photo.png" alt="My photo">
-        <h3> <i class="fa fa-address-card"></i>
-            Contact information</h3>
-        <p> <strong>Location</strong>: Russia, Saint Petersburg</p>
-        <p><strong>E-mail</strong>: aniamarkh@gmail.com</p>
-        <p><strong>Github</strong>: aniamarkh</p>
-        <div class="skills">
+    <header>
+        <div class="photo"><img src="images/photo.png" alt="My photo"></div>
+        <div class="name">
+            <h1>Anna Marchenko</h1>
+            <h2>Entry-Level Front-End developer</h2>
+        </div>
+    </header>
+    <main>
+        <div class="narrow">
+            <h3> <i class="fa fa-address-card"></i>
+                Contact information</h3>
+            <p> <strong>Location</strong>: Russia, Saint Petersburg</p>
+            <p><strong>E-mail</strong>: aniamarkh@gmail.com</p>
+            <p><strong>Github</strong>: aniamarkh</p>
             <h3><i class="fa fa-book"></i>Skills</h3>
             <ul>
                 <li>HTML5, CSS3</li>
@@ -36,31 +42,31 @@
                 <li>Windows OS, Linux</li>
             </ul>
         </div>
-    </aside>
-    <main>
-        <div class="profile">
-            <h1>Anna Marchenko</h1>
-            <h2>Entry-Level Front-End developer</h2>
-            <h3><i class="fa fa-user"></i>Profile</h3>
-            <p><strong>My goal</strong> as an developer is
-                to build a friendly, intuitive, and charming interface between the user and the product.</p>
-            <p>Having started my career as a civil engineer, I have strong analytical and critical thinking skills,
-                subject
-                knowledge of mathematics and physics to solve engineering problems, and time management skills to ensure
-                project
-                deadlines are met.</p>
-            <p>I am eager to apply my professional background and creativity to my career!</p>
-        </div>
-        <div class="code">
-            <h3><i class="fa fa-code"></i>Code examples</h3>
-            <pre class="code_example">
+        <div class="wide">
+            <div>
+                <h3><i class="fa fa-user"></i>Profile</h3>
+                <p><strong>My goal</strong> as an developer is
+                    to build a friendly, intuitive, and charming interface between the user and the product.</p>
+                <p>Having started my career as a civil engineer, I have strong analytical and critical thinking
+                    skills,
+                    subject
+                    knowledge of mathematics and physics to solve engineering problems, and time management skills
+                    to
+                    ensure
+                    project
+                    deadlines are met.</p>
+                <p>I am eager to apply my professional background and creativity to my career!</p>
+            </div>
+            <div class="code">
+                <h3><i class="fa fa-code"></i>Code examples</h3>
+                <pre class="code_example">
 def is_palindrome(text):
     text = [i.lower() for i in text if i not in (',.!?- ')]
     return text == text[::-1]
                 
 txt = input()
 print(is_palindrome(txt))</pre>
-            <pre class="code_example">
+                <pre class="code_example">
 n = input().split('-')
 if n[0] == '7':
     del n[0]
@@ -68,19 +74,19 @@ if [len(i) for i in n] == [3, 3, 4] and ''.join(n).isdigit():
     print('YES')
 else:
     print('NO')</pre>
-        </div>
-        <div class="education">
-            <h3> <i class="fa fa-graduation-cap"></i>Education</h3>
-            <p><strong>Saint Petersburg State University of Architecture and Civil Engineering</strong></p>
-            <p>Bachelor's degree, Faculty of civil engineering, 2014-2018</p>
-            <p><strong>RS School</strong></p>
-            <p>JavaScript/Front-end Course, Stage 0 (in progress)</p>
-        </div>
-        <div class="language">
-            <h3><i class="fa fa-language"></i>Language</h3>
-            <p><strong>English</strong>: B2 (Upper-intermediate)</p>
-            <p><strong>Russian</strong>: native</p>
-        </div>
+            </div>
+            <div>
+                <h3> <i class="fa fa-graduation-cap"></i>Education</h3>
+                <p><strong>Saint Petersburg State University of Architecture and Civil Engineering</strong></p>
+                <p>Bachelor's degree, Faculty of civil engineering, 2014-2018</p>
+                <p><strong>RS School</strong></p>
+                <p>JavaScript/Front-end Course, Stage 0 (in progress)</p>
+            </div>
+            <div>
+                <h3><i class="fa fa-language"></i>Language</h3>
+                <p><strong>English</strong>: B2 (Upper-intermediate)</p>
+                <p><strong>Russian</strong>: native</p>
+            </div>
     </main>
     <footer></footer>
 </body>
