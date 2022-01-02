@@ -1,0 +1,137 @@
+
+  html {
+    background-color: #ffffff;
+  }
+
+  body {
+    margin: auto;
+    width: 760px;
+    background-color: #F8F8F8;
+  }
+
+  header {
+    display: flex;
+    flex-direction: row;
+    }
+
+  main {
+    display: flex;
+    flex-direction: row;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px;
+    margin-top: 10px;
+    color: #525252;
+    background-color: #d8d8d8;
+  }
+
+  h1 {
+    font-size: 55px;
+    line-height: 50px;
+    font-family: 'Space Grotesk', sans-serif;
+    padding-top: 10px;
+  }
+
+  h2 {
+    font-size: 30px;
+    line-height: 32px;
+    font-family: 'Space Grotesk', sans-serif;
+    padding-bottom: 0px;
+  }
+
+  h3 {
+    font-size: 20px;
+    line-height: 22px;
+    margin: 10px 0px 10px 0px;
+    font-family: 'Space Grotesk', sans-serif;
+  }
+
+  p {
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+    line-height: 20px;
+    margin: 5px 5px 0px 0px;
+  }
+  ul {
+    list-style-type: circle;    
+    margin: 10px 0px 0px 15px;
+    padding: 0;
+  }
+
+  ul li {  margin: 5px 0px 0px 0px;
+    width: 450px;
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+    line-height: 20px;
+  }
+
+
+  i {
+    padding-right: 10px;
+  }
+
+  .icon {
+    width:25px;
+    height: 25px;
+    text-align: center;
+  }
+
+  .photo {
+    width: 260px;
+    padding: 10px 0px 0px 30px;
+
+  }
+
+  .narrow {
+    width: 230px;   
+    padding-left: 20px;
+  }
+
+  .wide {
+    width: 540px;
+    padding-left: 20px;
+  }
+
+  .code_example {
+    font-size: 12px;
+    line-height: 1.2;
+    background-color: #d8d8d8;
+    padding: 10px;
+    margin: 0px 10px 10px 0px;
+    width: 430px;
+  }
+
+  .footer__rsschool {
+    justify-self: end;
+    height: 32px;
+  }
+
+  @media (max-width: 700px) {
+    
+  html {
+    background-color: #F8F8F8;
+
+  }
+    main {
+        display: flex;
+        flex-direction: column;
+
+    }
+    
+    header {
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 0px 0px 0px 0px;
+        width: 100%;
+    }
+
+    body, .narrow, .wide {
+        max-width:min-content;
+        padding-left: 5px;
+    }
+
+}
